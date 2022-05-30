@@ -4,7 +4,7 @@ public class ConversorTemperatura  extends Conversor{
 
 	
 	public String selectTipoConversion() {
-		this.tipoConversion = (JOptionPane.showInputDialog(null,"Elija la moneda a la que desea convertir su dinero","Monedas", 
+		this.tipoConversion = (JOptionPane.showInputDialog(null,"Elija la escala a la que desea convertir su temperatura","Temperaturas", 
 				  JOptionPane.PLAIN_MESSAGE, null, new Object[] {
 						  "De Celcius a Fahrenheit",
 						  "De Celcius a Kelvin",
